@@ -4,6 +4,10 @@ Z. Xu (2026), *Universal spectrum and scaling laws for dark matter halo mass fun
 
 This repository holds the manuscript, the plotted data behind every figure, and the recomputed results of the paper.
 
+The same files are archived on Zenodo: [doi:10.5281/zenodo.23987612](https://doi.org/10.5281/zenodo.23987612).
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23987612.svg)](https://doi.org/10.5281/zenodo.23987612)
+
 ## Major findings (dark matter halo mass functions and density profiles)
 
 - A characteristic halo mass m<sub>h</sub>* ∝ t marks a linear-to-nonlinear transition; near it gravity organizes the matter field into a quasi-universal power spectrum P(k) ∝ k<sup>−1</sup>, independent of the primordial spectrum.
