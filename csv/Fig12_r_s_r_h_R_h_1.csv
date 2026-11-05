@@ -1,0 +1,20 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,,,
+# Updated,11/2026,,,,,,,,,,
+#Name,Fig. 12: plotted data of the author file r_s_r_h_R_h_1.fig,,,,,,,,,,
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles",,,,,,,,,
+#Ref. [2] Virgo SCDM simulation,https://wwwmpa.mpa-garching.mpg.de/Virgo/,"Jenkins et al. 1998, ApJ 499, 20",,,,,,,,,
+#Ref. [3] Illustris-1-Dark,https://www.illustris-project.org/data/,"Vogelsberger et al. 2014, MNRAS 444, 1518",,,,,,,,,
+#Ref. [4] Dark matter flow dataset,https://doi.org/10.5281/zenodo.6586213,"Xu 2022, all files",,,,,,,,,
+#Note,"axes labels: [['Scale factor a', 'Scale r_s, r_h, and R_h (kpc)']]",,,,,,,,,,
+#Note,"x[i], y[i]: series i of the .fig in plotting order; series names as in the .fig",,,,,,,,,,
+#Note,series with >20000 points thinned to ~5000 points uniform in log x (values unaltered),,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+x[0] r_s^* for m_h^*,y[0] r_s^* for m_h^*,x[1] r_h^* for m_h^*,y[1] r_h^* for m_h^*,x[2] R_h^* for m_h^*,y[2] R_h^* for m_h^*,x[3] r_s(M^*),y[3] r_s(M^*),x[4] r_h(M^*),y[4] r_h(M^*),x[5] R_h(M^*),y[5] R_h(M^*)
+0.0769230769,4.8,0.0769230769,7.9,0.0769230769,7.9,0.0769230769,2.5,0.0769230769,4,0.0769230769,4
+0.111111111,9.3,0.111111111,16,0.111111111,16,0.111111111,5.3,0.111111111,9.2,0.111111111,9.2
+0.2,26,0.2,52,0.2,52,0.2,18,0.2,35,0.2,35
+0.333333333,60,0.333333333,139,0.333333333,139,0.333333333,48,0.333333333,109,0.333333333,109
+0.5,97,0.5,272,0.5,272,0.5,103,0.5,272,0.5,272
+0.751879699,142,0.751879699,505,0.751879699,412,0.751879699,182,0.751879699,612,0.751879699,500
+1,175,1,755,1,534,1,267,1,1089,1,770

@@ -1,0 +1,101 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,11/2026
+#Name,"All theory numbers of the pipeline (results/theory_numbers.json, flattened)"
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles"
+#Note,values in SI units unless the key names a unit
+,
+,
+quantity,value
+plateau_Delta2_L_inf,38.7058345
+virgo_check_A_sigma8,None
+flux_10pct_edge_over_Mstar,0.234978102
+flux_half_edge_over_Mstar,2.56508321
+plateau_ratio_NFW,2.09422492
+plateau_ratio_Einasto_017,2.42059399
+r43_over_rs.1,0.0580947502
+r43_over_rs.1.5,0.15
+r43_over_rs.1.6666666666666667,0.181335207
+r43_over_rs.2,0.241028526
+beta_for_r43_rs.0.15,1.5
+beta_for_r43_rs.0.2,1.76812038
+beta_for_r43_rs.0.22,1.8794187
+beta_for_r43_rs.0.3,2.36357496
+c_growth_astar_0p5_to_1,1.07177346
+Delta_h_over_rhoc_range,133.218 153.803
+R_h_1e12_Mpc,0.233131471
+rho_mean_1e9_in_1kpc,1.61576724e-20
+rho_mean_rs_c5_z10,1.51159621e-20
+merger_release_fraction,0.476190476
+m_X_GeV_range,4.60263e+11 8.96857e+11
+r_p_range_m,9.33462e-14 1.82719e-13
+v_rp_range,4.23609e-07 5.86691e-07
+t0_illustris_Gyr,13.7511981
+H0t0_illustris,0.990071636
+boundary_draft.m_hs,3.2e+13
+boundary_draft.r_hs_Mpc,1.04672491
+boundary_draft.u_hs_kms,74.4283861
+boundary_draft.u_over_c_sq,6.16361918e-08
+boundary_draft.m_boundary_GeV,1.10646e+12 5.53231e+11
+boundary_draft.m_boundary_kg,1.97245e-15 9.86225e-16
+boundary_draft.tau_g_over_tP,249.52 124.76
+boundary_corrected.m_hs,1.2e+13
+boundary_corrected.r_hs_Mpc,0.754819279
+boundary_corrected.u_hs_kms,53.672154
+boundary_corrected.u_over_c_sq,3.20521114e-08
+boundary_corrected.m_boundary_GeV,5.75384e+11 2.87692e+11
+boundary_corrected.m_boundary_kg,1.02572e-15 5.12858e-16
+boundary_corrected.tau_g_over_tP,346.015 173.007
+"u_pred_kms.eps=2e-07,Ht=0.990,ac=1",47.3455801
+"u_pred_kms.eps=2e-07,Ht=0.990,ac=2",66.9567615
+"u_pred_kms.eps=2e-07,Ht=0.667,ac=1",70.3132739
+"u_pred_kms.eps=2e-07,Ht=0.667,ac=2",99.4379856
+"u_pred_kms.eps=3e-07,Ht=0.990,ac=1",48.4241816
+"u_pred_kms.eps=3e-07,Ht=0.990,ac=2",68.4821344
+"u_pred_kms.eps=3e-07,Ht=0.667,ac=1",71.9151131
+"u_pred_kms.eps=3e-07,Ht=0.667,ac=2",101.703328
+"u_pred_kms.eps=5e-07,Ht=0.990,ac=1",49.8181069
+"u_pred_kms.eps=5e-07,Ht=0.990,ac=2",70.4534424
+"u_pred_kms.eps=5e-07,Ht=0.667,ac=1",73.9852419
+"u_pred_kms.eps=5e-07,Ht=0.667,ac=2",104.630933
+sqrt_G_mp_over_lP_kms_1e12GeV,85.7990367
+potential_depth_ratio,23.7356617
+tabH1_draft.centre.r,1.71812328e-13
+tabH1_draft.centre.m,1.78266192e-15
+tabH1_draft.centre.rho,4.66170628e+22
+tabH1_draft.centre.t,4.80153358e-07
+tabH1_draft.centre.v,5.36742038e-07
+tabH1_draft.centre.mdot,9.28173202e-09
+tabH1_draft.centre.d,3.36905443e-13
+tabH1_draft.centre.freq,2.20917732e+17
+tabH1_draft.centre.tau_g,2.30842474e-18
+tabH1_draft.centre.tau_h,1.92061343e-07
+tabH1_draft.boundary.r,3.2298556e+22
+tabH1_draft.boundary.m,6.363104e+43
+tabH1_draft.boundary.rho,9.30936159e-27
+tabH1_draft.boundary.t,4.33954808e+17
+tabH1_draft.boundary.v,233884.389
+tabH1_draft.boundary.mdot,1.46630568e+26
+tabH1_draft.boundary.d,5763.89901
+tabH1_draft.boundary.freq,12.912854
+tabH1_draft.boundary.tau_g,1.21575054e-41
+tabH1_draft.boundary.tau_h,1.21575054e-41
+tabH1_corrected.centre.r,1.71812328e-13
+tabH1_corrected.centre.m,1.78266192e-15
+tabH1_corrected.centre.rho,4.66170628e+22
+tabH1_corrected.centre.t,4.80153358e-07
+tabH1_corrected.centre.v,5.36742038e-07
+tabH1_corrected.centre.mdot,9.28173202e-09
+tabH1_corrected.centre.d,3.36905443e-13
+tabH1_corrected.centre.freq,1.59309252e+17
+tabH1_corrected.centre.tau_g,3.20114464e-18
+tabH1_corrected.centre.tau_h,1.92061343e-07
+tabH1_corrected.boundary.r,2.32912893e+22
+tabH1_corrected.boundary.m,2.386164e+43
+tabH1_corrected.boundary.rho,9.30936159e-27
+tabH1_corrected.boundary.t,4.33954808e+17
+tabH1_corrected.boundary.v,168659.83
+tabH1_corrected.boundary.mdot,5.4986463e+25
+tabH1_corrected.boundary.d,5763.89901
+tabH1_corrected.boundary.freq,9.31177904
+tabH1_corrected.boundary.tau_g,3.24200144e-41
+tabH1_corrected.boundary.tau_h,3.24200144e-41

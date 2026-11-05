@@ -1,0 +1,74 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,
+# Updated,11/2026,,,
+#Name,"Numbers quoted in the text, recomputed",,,
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles",,
+,,,,
+,,,,
+where,quoted,recomputed,source,status
+"Sec. 2, Eq. plateau",38.7 a^2,38.71,A (Gamma/c)^4,pass
+Sec. 2 (i),k_NL1 ~ a^-3/2 for a >= 0.6,-1.49,Fig. 4,pass
+Sec. 2 (ii),k_NL2 largest of the five,True,Fig. 4,pass
+Sec. 2 (ii),k_NL2 ~ a^-0.9 for z <= 0.5,-0.89,Fig. 4,pass
+Sec. 2 (iii),"k_h*, k_L* -> a^-1/2","k_h* -0.67, k_L* -0.41",Fig. 4 (a >= 0.6),note
+Sec. 2 (iii),K* ~ a^-1,-0.92,Fig. 4,pass
+Sec. 2 (iv),"m_h* ~ a^3 early, a^3/2 late (Illustris)","2.74, 1.27",Fig. 5,note
+Sec. 2 (iv),"m_h* late growth, Virgo",2.05 (a = 0.77-1),Fig. 5,note
+"Sec. 2 (iv), Sec. 3",M* ~ a^15/4 before a* (Illustris),3.59,Fig. 5,pass
+Sec. 2 (iv),M* ~ a^3 after a* (Illustris),2.87,Fig. 5,pass
+Sec. 3,Virgo M*: a^2.5-a^2.7 for 1 < z < 3,"2.24 (1<z<3), 2.53 (0.3<z<3)",Fig. 5,erratum E6
+Sec. 2 (v),a* = 0.77 (Virgo),"0.789 (masses), 0.787 (wavenumbers)","Figs 4, 5",note
+Sec. 2 (v),a* = 0.5 (Illustris),0.500,Fig. 5,pass
+Sec. 2 (vi),M_h ~ a^1/2 after a*,"Illustris 0.41, Virgo 0.54",Fig. 5,pass
+"Sec. 3, Fig. 5",f_h = 0.5 at a*,"0.42 (Illustris), 0.54 (Virgo)",Fig. 5: M_h/(N m_p),note
+Fig. 5 caption,M_NL1 ~ a^9/2 late,4.45,Fig. 5,pass
+Fig. 3 caption,sigma_v^2(m*) ~ m*^1/3,0.39,Fig. 3 crossings,note
+Fig. 6 caption,"Kpv slopes 2.7e-7, 3e-7","Illustris 2.56e-07 (line 2.41e-07 per t), Virgo 2.99e-07-3.72e-07",Fig. 6,note
+Fig. 6 caption,Kpv = Kph at 0.5 (Illustris),0.48,Fig. 6,pass
+Fig. 6 caption,Kpv = Kph at 0.8 (Virgo),0.97,Fig. 6,erratum E3
+"Fig. 6 caption, App. B",all-particle rate 4.6e-7,4.58e-07,Fig. B1: 3/2 v0^2/t0,pass
+Sec. 4,"k_eq, sigma_h^2 saturation",order of magnitude,Eq. sigma_h0,cited
+"Sec. 4, Fig. 8",Delta^2 ~ a^3 in the universal range,max late exponent 2.81,Fig. 8,note
+"Sec. 4, Eq. mh_star_2",delta_ta = (3pi/4)^2 - 1 = 5.55,4.55,arithmetic,erratum E7
+"Sec. 5, Fig. 9",eps_m = -0.02 Msun/s at z = 0,0.0223,Fig. 9 plateau (3e9 < m < 1e11),pass
+"Sec. 5, Fig. 9",eps_m ~ a^-1,"-1.08 (after a*), -1.20 (a >= 0.25)",Fig. 9,pass
+"Sec. 5, Fig. 10",local slope lambda = 0.9,-0.908 (z=0) .. -0.960 (z=2),Fig. 10,pass
+"Sec. 5, Eq. 3-25-2","lambda = 4/5, 7/9, 2/3",exact,arithmetic,pass
+Fig. 11 caption,"eta0* = 1.162, q = 0.365, p = 1.185","refit 1.159, 0.363, 1.161","Fig. 11 (Illustris z = 0, 2, 4)",pass
+Fig. 11 caption,"lambda1 = 0.878, lambda_i = 0.719","0.878, 0.719","from q, p",pass
+Fig. 11 caption,double-lambda fits best,Illustris yes; Virgo: ST 0.51 vs 0.62,rms ln f,note
+"Sec. 5, Eq. flux_exact","10% at 0.2 M*, half at 2.5 M*","0.235, 2.57",Eq. flux_exact,pass
+Sec. 5,10/21 of the host potential,0.4762,Eq. 3-2-s4,pass
+Sec. 6,"NFW 2.1, Einasto 2.4","2.09, 2.42",analytic,pass
+Sec. 6,r_out/r_in ~ 6 (simulated),"2.1, 6.0, 4.3, 6.5, 6.1",Fig. 14,note
+"Sec. 6, Fig. 14",r_s = 25 kpc,14.4-20.0 kpc,Fig. 14 (s = -2),erratum E5
+"Sec. 6, Fig. 14",-4/3 range r ~ 1-6 kpc,0.6-5.4 kpc,Fig. 14,erratum E5
+Sec. 6,"r_4/3 = 5-6 kpc, r_4/3/r_s = 0.2, beta = 2",2.1-5.4 kpc; ratio 0.15-0.30,Fig. 14,erratum E5
+Eq. 4-2-6,eps_u = -3e-7 (radial),2.02e-07,Fig. 16,erratum E4
+Fig. 15 caption,-(2-5)e-7 at m*,1.55e-07-2.17e-07,Fig. 15 plateaus,erratum E4
+Fig. F1 caption,-2.5e-7 (mass space),2.21e-07-3.42e-07,Fig. F1 plateaus,pass
+Abstract,|eps_u| = (2-5)e-7,"Illustris 1.6-3.4e-7 (radial, mass space), Virgo 4.6e-7 (all particles)","Figs 15, F1, B1",pass
+Sec. 6,"r_in = 1 kpc: 1e9 Msun, 1.5e-20 kg/m^3",1.62e-20,arithmetic,pass
+Sec. 6,c = 5 progenitor at z = 10,1.51e-20,"NFW, Illustris cosmology",pass
+"Sec. 6, Eq. r43","0.06, 0.15, 0.18 r_s","0.058, 0.150, 0.181",Eq. r43,pass
+"Sec. 6, Eq. c_scaling",c rises 7% (a* = 0.5 to 1),7.2% (theory); 8.8% (Fig. 12),"Eq. c_scaling, Fig. 12",pass
+Sec. 6,Delta_h rho/rho_c = 133-154,133-154,Illustris cosmology,pass
+Sec. 6,R_h(1e12) = 0.23 Mpc,0.233,"Eq. Rh_def, a = 1",pass
+Sec. 6,c = 9-15 (r_s 15-25 kpc),11-16 (r_s from Fig. 14); Fig. 12: c* = 3.05,"Fig. 14, Fig. 12",erratum E5
+"Fig. 17 legend, App. G","m_h*(z=0) = 3.2e13 (App. G, H), 1.2e13 (Fig. 17)",1.2e+13,Fig. 5,erratum E2
+App. G,r_h* = 1.05 Mpc,0.755; Fig. 12: 0.755,Eq. rh_def,erratum E2
+"App. G, Eq. 4-5",u_h* = 75 km/s,53.7,r_h*/t0,erratum E2
+"App. B, Eq. 5","v0 = 350 km/s, t0 = 13.7 Gyr","354.6 km/s, 13.04 Gyr","Fig. B1, h = 0.5",erratum E1
+"App. B, Fig. B1",P = -1.4 K,-P/K = 1.40-1.47 (t/t0 >= 0.19),Fig. B1,pass
+App. H,m_X = (5-9)e11 GeV,4.60e+11-8.97e+11,Eq. mX,pass
+App. H,"r_p = 2e-13 m, v = 5e-7 m/s","9.3e-14-1.8e-13 m, 4.2e-07-5.9e-07 m/s","Eqs rp, 4-3-2",pass
+App. H,(u/c)^2 = 6e-8,3.21e-08,u_h* = 54 km/s,erratum E2
+App. H,1/25 of the potential depth,1/23.7,Omega = 0.2726,pass
+App. H,m_p >= (0.6-1.1)e12 GeV,2.88e+11-5.75e+11,"Eq. 5-9-3, r_h* = 0.755 Mpc",erratum E2
+App. H,sqrt(G m_p/l_p) = 86 km/s,85.8,m_p = 1e12 GeV,pass
+App. H,tau_g* = 2e2 t_p,173-346,u_h* = 54 km/s,erratum E2
+App. H,u = 50-70 (H0t0) / 70-100 km/s (Ht = 2/3),47-70 / 70-105,Eq. 5-u-pred,pass
+App. H,H0 t0 = 0.99,0.990,Illustris cosmology,pass
+Table H1,centre column,all entries reproduced (t_r 4.8e-7 vs 5e-7),results/tab_H1_draft.tex,pass
+Table H1,boundary column,recomputed with m_h* = 1.2e13 (results/tab_H1_corrected.tex),Eq. rh_def,erratum E2
+Table A1,simulation parameters,from Jenkins et al. 1998 and Vogelsberger et al. 2014,-,cited
+"Sec. 6, Fig. 14 caption",r_in = 1 kpc,0.62-1.01 kpc,Fig. 14,pass

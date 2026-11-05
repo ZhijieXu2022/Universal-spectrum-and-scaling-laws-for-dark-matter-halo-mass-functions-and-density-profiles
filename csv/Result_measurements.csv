@@ -1,0 +1,391 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,11/2026
+#Name,"All measurements of the pipeline (results/measurements.json, flattened)"
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles"
+#Note,values in SI units unless the key names a unit
+,
+,
+quantity,value
+fig5.mhs_z0_illustris,1.20005182e+13
+fig5.mhs_z0_virgo,3.86e+13
+fig5.Mstar_z0_illustris,3.65e+13
+fig5.slope_mhs_illustris_before,2.73928985
+fig5.slope_mhs_illustris_after,1.27412169
+fig5.slope_Mstar_illustris_before,3.58616843
+fig5.slope_Mstar_illustris_after,2.87496659
+fig5.slope_Mh_illustris_after,0.405295715
+fig5.slope_mhs_virgo_all,2.13064413
+fig5.slope_mhs_virgo_late,1.99109347
+fig5.slope_mhs_virgo_after_astar,2.04705413
+fig5.slope_Mstar_virgo_z03_3,2.53472952
+fig5.slope_Mstar_virgo_z1_3,2.23668197
+fig5.slope_Mstar_virgo_after,2.81543642
+fig5.local_slopes_Mstar_virgo_z1_3,1.8264 2.4573 2.5784
+fig5.slope_Mh_virgo_after,0.538402249
+fig5.slope_MNL1_late,4.45465309
+fig5.slope_MNL2_late,2.70049489
+fig5.astar_illustris_masses,0.500021881
+fig5.astar_virgo_masses,0.788702364
+fig5.fh_illustris,0.0024 0.0306 0.1707 0.3177 0.4186 0.5051 0.553
+fig5.a_illustris,0.0767 0.111 0.1996 0.3333 0.5 0.7634 1
+fig5.fh_virgo,0.0046 0.0595 0.16 0.2449 0.3555 0.4801 0.5331 0.5865 0.6134
+fig5.a_virgo,0.1667 0.25 0.3333 0.4 0.5 0.6667 0.7692 0.9091 1
+fig5.fh_at_astar_illustris,0.41863793
+fig5.fh_at_astar_virgo,0.54113274
+fig4.a,0.333333 0.4 0.5 0.666667 0.769231 0.909091 1
+fig4.kNL1,3.141 1.951 1.203 0.716 0.571 0.447 0.392
+fig4.kNL2,10.2 8.1 5.95 4.24 3.7 3.14 2.98
+fig4.kh,4.54 4.06 3.47 2.9 2.64 2.38 2.2
+fig4.Kstar,5.64 4.86 4.01 3.02 2.66 2.27 2.08
+fig4.kL,5.86 4.71 3.7 2.98 2.78 2.58 2.53
+fig4.slope_kNL1_late,-1.48579998
+fig4.slope_kNL1_early,-2.01810749
+fig4.slope_kNL2_late,-0.891202499
+fig4.slope_kNL2_early,-1.22704266
+fig4.slope_kh_late,-0.670435109
+fig4.slope_kh_early,-0.650677268
+fig4.slope_Kstar_late,-0.923353086
+fig4.slope_Kstar_early,-0.908064372
+fig4.slope_kL_late,-0.413754419
+fig4.slope_kL_early,-0.892633305
+fig4.astar_virgo_wavenumbers,0.787111333
+fig4.kL_over_Kstar,1.039 0.969 0.923 0.987 1.045 1.137 1.216
+fig4.kL_over_kh,1.291 1.16 1.066 1.028 1.053 1.084 1.15
+fig4.largest_is_kNL2,True
+fig3.crossings[0].z,3
+fig3.crossings[0].mhs,2.67613596e+12
+fig3.crossings[0].sigma2,25035.0863
+fig3.crossings[0].slope_sv,0.861134654
+fig3.crossings[0].slope_sh,0.00196609118
+fig3.crossings[1].z,2
+fig3.crossings[1].mhs,4.41317885e+12
+fig3.crossings[1].sigma2,31433.4405
+fig3.crossings[1].slope_sv,0.8187566
+fig3.crossings[1].slope_sh,-0.0748543961
+fig3.crossings[2].z,1.5
+fig3.crossings[2].mhs,6.16111604e+12
+fig3.crossings[2].sigma2,36076.3165
+fig3.crossings[2].slope_sv,0.814334199
+fig3.crossings[2].slope_sh,-0.0517880835
+fig3.crossings[3].z,1
+fig3.crossings[3].mhs,9.85575113e+12
+fig3.crossings[3].sigma2,43281.2492
+fig3.crossings[3].slope_sv,0.7923674
+fig3.crossings[3].slope_sh,-0.0588888539
+fig3.crossings[4].z,0.5
+fig3.crossings[4].mhs,1.70334454e+13
+fig3.crossings[4].sigma2,52739.2578
+fig3.crossings[4].slope_sv,0.745144855
+fig3.crossings[4].slope_sh,-0.0459930765
+fig3.crossings[5].z,0.3
+fig3.crossings[5].mhs,2.25645781e+13
+fig3.crossings[5].sigma2,58760.8252
+fig3.crossings[5].slope_sv,0.706843854
+fig3.crossings[5].slope_sh,-0.0473479083
+fig3.crossings[6].z,0.1
+fig3.crossings[6].mhs,3.0688352e+13
+fig3.crossings[6].sigma2,65135.9174
+fig3.crossings[6].slope_sv,0.650704628
+fig3.crossings[6].slope_sh,-0.0502157476
+fig3.crossings[7].z,0
+fig3.crossings[7].mhs,3.86791978e+13
+fig3.crossings[7].sigma2,72218.5863
+fig3.crossings[7].slope_sv,0.610394304
+fig3.crossings[7].slope_sh,-0.0492161984
+fig3.slope_sigma2_vs_mhs,0.387892608
+fig3.slope_sigma2_vs_mhs_z1_0,0.370460276
+fig6.Kpv_over_t_illustris,2.39085e-07 1.82814e-07 1.92181e-07 2.48655e-07 2.72787e-07 2.56003e-07 2.45983e-07
+fig6.Kpv_over_t_virgo,3.72158e-07 3.38063e-07 3.3446e-07 3.2485e-07 3.13178e-07 3.09304e-07 3.03098e-07 2.98617e-07
+fig6.Kpv_over_t_illustris_a033_1_mean,2.55857061e-07
+fig6.Kpv_over_t_illustris_a033_1_std,1.04405049e-08
+fig6.line_illustris_coeff_per_t,2.40509143e-07
+fig6.line_virgo_coeff_per_t,2.99794661e-07
+fig6.a_cross_illustris,0.477270496
+fig6.a_cross_virgo,0.970804464
+fig6.ratio_virgo_at_astar,0.891858238
+fig6.a_virgo_from_t,0.0909 0.1667 0.25 0.3334 0.4001 0.5001 0.6668 0.7693 0.9092 1.0001
+figB1.minus_P_over_K,-0 1.0806 1.3263 1.399 1.4234 1.4415 1.4536 1.4571 1.4614 1.4652
+figB1.t_over_t0,0.027406 0.0680618 0.125 0.192421 0.252982 0.353553 0.544372 0.67462 0.866797 1
+figB1.Kp_over_t_z0,4.58432536e-07
+figB1.v0_kms,354.598364
+figB1.line_coeff,4.60048065e-07
+figB1.t0_virgo_Gyr,13.0372296
+figB1.eps_u_virgo_formula,-4.58432536e-07
+figB1.eps_u_with_350_13p7,-4.25013587e-07
+figF1.plateaus[0].label,z_1=4; z_2=8
+figF1.plateaus[0].plateau,2.20993869e-07
+figF1.plateaus[0].p10,2.11258893e-07
+figF1.plateaus[0].p90,2.248519e-07
+figF1.plateaus[1].label,z_1=2; z_2=4
+figF1.plateaus[1].plateau,3.416894e-07
+figF1.plateaus[1].p10,3.24974729e-07
+figF1.plateaus[1].p90,3.46281115e-07
+figF1.plateaus[2].label,z_1=1; z_2=2
+figF1.plateaus[2].plateau,3.32869462e-07
+figF1.plateaus[2].p10,3.19477431e-07
+figF1.plateaus[2].p90,3.37134213e-07
+figF1.plateaus[3].label,z_1=0.3; z_2=1
+figF1.plateaus[3].plateau,2.52187135e-07
+figF1.plateaus[3].p10,2.45659908e-07
+figF1.plateaus[3].p90,2.54233828e-07
+figF1.plateaus[4].label,z_1=0; z_2=0.3
+figF1.plateaus[4].plateau,2.22308842e-07
+figF1.plateaus[4].p10,2.16255268e-07
+figF1.plateaus[4].p90,2.24919717e-07
+fig15_16.plateau_mhs[0].label,z_1=4; z_2=8;
+fig15_16.plateau_mhs[0].plateau,1.90782686e-07
+fig15_16.plateau_mhs[1].label,z_1=2; z_2=4;
+fig15_16.plateau_mhs[1].plateau,2.17418005e-07
+fig15_16.plateau_mhs[2].label,z_1=1; z_2=2;
+fig15_16.plateau_mhs[2].plateau,1.95239451e-07
+fig15_16.plateau_mhs[3].label,z_1=0.3; z_2=1;
+fig15_16.plateau_mhs[3].plateau,1.55040297e-07
+fig15_16.plateau_mhs[4].label,z_1=0; z_2=0.3
+fig15_16.plateau_mhs[4].plateau,1.81987787e-07
+fig15_16.plateau_0044mhs[0].label,z_1=4; z_2=8;
+fig15_16.plateau_0044mhs[0].plateau,2.33047501e-08
+fig15_16.plateau_0044mhs[1].label,z_1=2; z_2=4;
+fig15_16.plateau_0044mhs[1].plateau,3.21192921e-08
+fig15_16.plateau_0044mhs[2].label,z_1=1; z_2=2;
+fig15_16.plateau_0044mhs[2].plateau,3.04483123e-08
+fig15_16.plateau_0044mhs[3].label,z_1=0.3; z_2=1;
+fig15_16.plateau_0044mhs[3].plateau,2.08499848e-08
+fig15_16.plateau_0044mhs[4].label,z_1=0; z_2=0.3
+fig15_16.plateau_0044mhs[4].plateau,3.04020915e-08
+fig15_16.nu,0.125 0.25 0.5 1 2
+fig15_16.eps,2.676e-08 4.9667e-08 9.8833e-08 2.0375e-07 3.93e-07
+fig15_16.eps_over_nu,2.1408e-07 1.98668e-07 1.97666e-07 2.0375e-07 1.965e-07
+fig15_16.slope_eps_nu,0.978919913
+fig15_16.eps_u_fit,2.02031567e-07
+fig1.Illustris TNG z=0.k_flattest,1.11263419
+fig1.Illustris TNG z=0.slope_there,-0.0089026887
+fig1.Illustris TNG z=1.k_flattest,0.0751372344
+fig1.Illustris TNG z=1.slope_there,0.0407529442
+fig1.Illustris TNG z=3.k_flattest,0.145440441
+fig1.Illustris TNG z=3.slope_there,-0.0287011034
+fig1.Illustris-1-Dark z=0.k_flattest,0.934480496
+fig1.Illustris-1-Dark z=0.slope_there,0.0326913254
+fig1.Virgo SCDM z=0.k_flattest,0.916221444
+fig1.Virgo SCDM z=0.slope_there,0.0105842781
+fig1.Virgo SCDM z=0.1.k_flattest,1.32918169
+fig1.Virgo SCDM z=0.1.slope_there,-0.0019127795
+fig1.Virgo SCDM z=0.3.k_flattest,0.12589425
+fig1.Virgo SCDM z=0.3.slope_there,0.0189376665
+fig1.Virgo SCDM z=0.5.k_flattest,0.125947695
+fig1.Virgo SCDM z=0.5.slope_there,0.0161837556
+fig1.Virgo SCDM z=1.k_flattest,0.125930605
+fig1.Virgo SCDM z=1.slope_there,0.0111783928
+fig1.Virgo SCDM z=1.5.k_flattest,4.59406712
+fig1.Virgo SCDM z=1.5.slope_there,-0.0046886386
+fig1.Virgo SCDM z=2.k_flattest,0.124118024
+fig1.Virgo SCDM z=2.slope_there,0.0277686206
+fig8[0].label,k=0.05h/Mpc
+fig8[0].k,0.05
+fig8[0].growth_late,1.9728822
+fig8[0].growth_early,1.99802365
+fig8[1].label,k=0.1h/Mpc
+fig8[1].k,0.1
+fig8[1].growth_late,1.92524704
+fig8[1].growth_early,1.98413425
+fig8[2].label,k=0.25h/Mpc
+fig8[2].k,0.25
+fig8[2].growth_late,1.94941973
+fig8[2].growth_early,2.00405563
+fig8[3].label,data4
+fig8[3].k,None
+fig8[3].growth_late,2.15930427
+fig8[3].growth_early,2.11820607
+fig8[4].label,data5
+fig8[4].k,None
+fig8[4].growth_late,2.39011983
+fig8[4].growth_early,2.30107993
+fig8[5].label,k=1h/Mpc
+fig8[5].k,1
+fig8[5].growth_late,2.55951284
+fig8[5].growth_early,2.56208081
+fig8[6].label,data7
+fig8[6].k,None
+fig8[6].growth_late,2.68098335
+fig8[6].growth_early,2.82650372
+fig8[7].label,k=1.5h/Mpc
+fig8[7].k,1.5
+fig8[7].growth_late,2.7484766
+fig8[7].growth_early,3.0677204
+fig8[8].label,data9
+fig8[8].k,None
+fig8[8].growth_late,2.7738568
+fig8[8].growth_early,3.34125629
+fig8[9].label,k=2h/Mpc
+fig8[9].k,2
+fig8[9].growth_late,2.81086503
+fig8[9].growth_early,3.67279585
+fig8[10].label,data11
+fig8[10].k,None
+fig8[10].growth_late,2.56432312
+fig8[10].growth_early,5.06220238
+fig8[11].label,data12
+fig8[11].k,None
+fig8[11].growth_late,2.34795795
+fig8[11].growth_early,5.91270015
+fig8[12].label,k=5h/Mpc
+fig8[12].k,5
+fig8[12].growth_late,2.2252062
+fig8[12].growth_early,4.88749936
+fig8[13].label,k=6h/Mpc
+fig8[13].k,6
+fig8[13].growth_late,2.17613283
+fig8[13].growth_early,3.99853805
+fig8[14].label,data15
+fig8[14].k,None
+fig8[14].growth_late,2.17493883
+fig8[14].growth_early,3.7798852
+fig8[15].label,data16
+fig8[15].k,None
+fig8[15].growth_late,2.17345146
+fig8[15].growth_early,3.73370463
+fig8[16].label,data17
+fig8[16].k,None
+fig8[16].growth_late,2.19553521
+fig8[16].growth_early,3.65417285
+fig8[17].label,k=10h/Mpc
+fig8[17].k,10
+fig8[17].growth_late,2.20371252
+fig8[17].growth_early,3.52537846
+fig7.sigma_h_saturation[0].label,"\sigma^2_{h}(R, z=0)"
+fig7.sigma_h_saturation[0].small_R_value,126766.955
+fig7.sigma_h_saturation[0].slope_small_R,0.158861776
+fig7.sigma_h_saturation[1].label,"\sigma^2_{h}(R, z=0.1)"
+fig7.sigma_h_saturation[1].small_R_value,122364.838
+fig7.sigma_h_saturation[1].slope_small_R,-0.424154681
+fig7.sigma_h_saturation[2].label,"\sigma^2_{h}(R, z=0.3)"
+fig7.sigma_h_saturation[2].small_R_value,146011.828
+fig7.sigma_h_saturation[2].slope_small_R,-0.593186371
+fig7.sigma_h_saturation[3].label,"\sigma^2_{h}(R, z=0.5)"
+fig7.sigma_h_saturation[3].small_R_value,119212.005
+fig7.sigma_h_saturation[3].slope_small_R,-0.877350372
+fig7.sigma_h_saturation[4].label,"\sigma^2_{h}(R, z=1)"
+fig7.sigma_h_saturation[4].small_R_value,87262.1185
+fig7.sigma_h_saturation[4].slope_small_R,-0.800132245
+fig7.sigma_h_saturation[5].label,"\sigma^2_{h}(R, z=1.5)"
+fig7.sigma_h_saturation[5].small_R_value,68170.785
+fig7.sigma_h_saturation[5].slope_small_R,-1.10146227
+fig7.sigma_h_saturation[6].label,"\sigma^2_{h}(R, z=2)"
+fig7.sigma_h_saturation[6].small_R_value,51538.3009
+fig7.sigma_h_saturation[6].slope_small_R,-0.928244449
+fig7.sigma_h_saturation[7].label,"\sigma^2_{h}(R, z=3)"
+fig7.sigma_h_saturation[7].small_R_value,35031.377
+fig7.sigma_h_saturation[7].slope_small_R,-0.892013304
+fig9.plateaus[0].label,z_1=4; z_2=8
+fig9.plateaus[0].a_mid,0.142857143
+fig9.plateaus[0].plateau,0.0971750306
+fig9.plateaus[0].spread,1.87067611
+fig9.plateaus[1].label,z_1=2; z_2=4
+fig9.plateaus[1].a_mid,0.25
+fig9.plateaus[1].plateau,0.097318405
+fig9.plateaus[1].spread,1.19609917
+fig9.plateaus[2].label,z_1=1; z_2=2
+fig9.plateaus[2].a_mid,0.4
+fig9.plateaus[2].plateau,0.0589947609
+fig9.plateaus[2].spread,1.00921367
+fig9.plateaus[3].label,z_1=0.3; z_2=1
+fig9.plateaus[3].a_mid,0.606060606
+fig9.plateaus[3].plateau,0.0329040811
+fig9.plateaus[3].spread,1.03583622
+fig9.plateaus[4].label,z_1=0; z_2=0.3
+fig9.plateaus[4].a_mid,0.869565217
+fig9.plateaus[4].plateau,0.0223020134
+fig9.plateaus[4].spread,1.03930371
+fig9.slope_after_astar,-1.07730016
+fig9.slope_a_ge_025,-1.20363053
+fig9.minus_dMh_dt,0.145307 0.218011 0.118113 0.05548 0.0289668 0.0195597
+fig9.a_mid_Mh,0.0938375 0.155294 0.266467 0.416667 0.631679 0.881679
+fig10[0].label,z=4
+fig10[0].slope,-1.09151962
+fig10[0].mg_1e10,9.39579324e+11
+fig10[1].label,z=2
+fig10[1].slope,-0.959590642
+fig10[1].mg_1e10,1.20157596e+12
+fig10[2].label,z=1
+fig10[2].slope,-0.931063244
+fig10[2].mg_1e10,1.1583462e+12
+fig10[3].label,z=0.3
+fig10[3].slope,-0.915164652
+fig10[3].mg_1e10,1.07119359e+12
+fig10[4].label,z=0
+fig10[4].slope,-0.907985029
+fig10[4].mg_1e10,1.02327305e+12
+fig11.rms_ln_f.z=4 (Illustris).PS,0.433377653
+fig11.rms_ln_f.z=4 (Illustris).ST,0.140746484
+fig11.rms_ln_f.z=4 (Illustris).JK,0.303903974
+fig11.rms_ln_f.z=4 (Illustris).double-lambda,0.127495354
+fig11.rms_ln_f.z=2 (Illustris).PS,0.479825516
+fig11.rms_ln_f.z=2 (Illustris).ST,0.137761746
+fig11.rms_ln_f.z=2 (Illustris).JK,0.207031177
+fig11.rms_ln_f.z=2 (Illustris).double-lambda,0.0853079603
+fig11.rms_ln_f.z=0 (Illustris).PS,0.425494239
+fig11.rms_ln_f.z=0 (Illustris).ST,0.126678876
+fig11.rms_ln_f.z=0 (Illustris).JK,0.254889634
+fig11.rms_ln_f.z=0 (Illustris).double-lambda,0.0714149636
+fig11.rms_ln_f.z=0 (SCDM).PS,0.605622462
+fig11.rms_ln_f.z=0 (SCDM).ST,0.509246266
+fig11.rms_ln_f.z=0 (SCDM).JK,20.0780778
+fig11.rms_ln_f.z=0 (SCDM).double-lambda,0.624026738
+fig11.refit_eta_p_q,1.15874 1.1613 0.363488
+fig11.refit_rms,0.0837318963
+fig11.curve_vs_eq_max_abs,1.77635684e-15
+fig11.PS_curve_vs_eq,0.0457365493
+fig11.ST_curve_vs_eq,0.0343135076
+fig11.JK_curve_vs_eq,9.9475983e-14
+fig11.lambda1,0.878333333
+fig11.lambda_i,0.718706048
+fig12.a,0.0769231 0.111111 0.2 0.333333 0.5 0.75188 1
+fig12.r_s^* for m_h^*.values,4.8 9.3 26 60 97 142 175
+fig12.r_s^* for m_h^*.slope_before,1.62925932
+fig12.r_s^* for m_h^*.slope_after,0.856999757
+fig12.r_h^* for m_h^*.values,7.9 16 52 139 272 505 755
+fig12.r_h^* for m_h^*.slope_before,1.91050708
+fig12.r_h^* for m_h^*.slope_after,1.47588353
+fig12.R_h^* for m_h^*.values,7.9 16 52 139 272 412 534
+fig12.R_h^* for m_h^*.slope_before,1.91050708
+fig12.R_h^* for m_h^*.slope_after,0.976297367
+fig12.r_s(M^*).values,2.5 5.3 18 48 103 182 267
+fig12.r_s(M^*).slope_before,1.99180189
+fig12.r_s(M^*).slope_after,1.37565387
+fig12.r_h(M^*).values,4 9.2 35 109 272 612 1089
+fig12.r_h(M^*).slope_before,2.25334878
+fig12.r_h(M^*).slope_after,2.00039009
+fig12.R_h(M^*).values,4 9.2 35 109 272 500 770
+fig12.R_h(M^*).slope_before,2.25334878
+fig12.R_h(M^*).slope_after,1.50063516
+fig12.c_star,1.646 1.72 2 2.317 2.804 2.901 3.051
+fig12.c_Mstar,1.6 1.736 1.944 2.271 2.641 2.747 2.884
+fig12.c_star_growth_after,1.08819328
+fig12.c_slope_before,0.28124776
+fig12.c_slope_after,0.119297609
+fig12.Rh_over_rh_z0,0.707284768
+fig12.rh_from_mhs,7.94276 16.398 52.233 138.461 281.894 523.493 754.83
+fig14.Aquarius (2008) m_h=1.84\times10^{12}M_{sun}.r_in,1.01199096
+fig14.Aquarius (2008) m_h=1.84\times10^{12}M_{sun}.r_out,2.10999369
+fig14.Aquarius (2008) m_h=1.84\times10^{12}M_{sun}.ratio,2.08499264
+fig14.Aquarius (2008) m_h=1.84\times10^{12}M_{sun}.r_minus2,14.3920382
+fig14.VL2 (2009) m_h=2\times10^{12}M_{sun}.r_in,0.624355533
+fig14.VL2 (2009) m_h=2\times10^{12}M_{sun}.r_out,3.72264164
+fig14.VL2 (2009) m_h=2\times10^{12}M_{sun}.ratio,5.9623747
+fig14.VL2 (2009) m_h=2\times10^{12}M_{sun}.r_minus2,20.0018344
+fig14.Ghalo_3 (2009) m_h=1.5-2\times10^{12}M_{sun}.r_in,0.778421872
+fig14.Ghalo_3 (2009) m_h=1.5-2\times10^{12}M_{sun}.r_out,3.3697579
+fig14.Ghalo_3 (2009) m_h=1.5-2\times10^{12}M_{sun}.ratio,4.32896097
+fig14.Ghalo_3 (2009) m_h=1.5-2\times10^{12}M_{sun}.r_minus2,15.5860392
+fig14.Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}.r_in,0.825096
+fig14.Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}.r_out,5.395096
+fig14.Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}.ratio,6.53874943
+fig14.Via Lactea (2008) m_h=1.7\times 10^{12} M_{sun}.r_minus2,18.028973
+fig14.FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}.r_in,0.743510539
+fig14.FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}.r_out,4.50262052
+fig14.FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}.ratio,6.05589334
+fig14.FIRE:DMO (2022)  m_h=1.4 \times10^{12}M_{sun}.r_minus2,18.3445841
+fig14.s=-4/3-2/3(r/r_s)^{10/9}.r_in,0.1
+fig14.s=-4/3-2/3(r/r_s)^{10/9}.r_out,2.9
+fig14.s=-4/3-2/3(r/r_s)^{10/9}.ratio,29
+fig14.s=-4/3-2/3(r/r_s)^{10/9}.r_minus2,16
+fig17_legend,"z=12, m_h^*=3x10^{10} M_{sun} z=8, m_h^*=9x10^{10} M_{sun} z=4, m_h^*=5x10^{11} M_{sun} z=2, m_h^*=2x10^{12} M_{sun} z=0, m_h^*=1.2x10^{13} M_{sun} Predicted -4/3 scaling law"

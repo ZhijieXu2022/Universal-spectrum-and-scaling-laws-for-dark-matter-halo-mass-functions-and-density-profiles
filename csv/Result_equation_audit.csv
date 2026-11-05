@@ -1,0 +1,165 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,
+# Updated,11/2026,,,,
+#Name,Equation-by-equation audit,,,,
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles",,,
+,,,,,
+,,,,,
+eq,label,type,method,result,status
+1,eq:BE_spectrum,model (cited),Bond & Efstathiou form evaluated; large-k limit -> Eq. plateau,cited fit of the linear spectrum; parameters as in the Virgo initial conditions,cited
+6,eq:plateau,identity,limit k -> inf of Eq. BE_spectrum numerically; value A (Gamma/c)^4,Delta_L^2(k=1e14)/a^2 = 38.7058; A(Gamma/c)^4 = 38.7058 (text 38.7),pass
+2,eq:kNL1,definition,by inspection,linear boundary Delta_L^2 = 1,definition
+4,eq:mh_def,definition,by inspection,sigma_v^2 = sigma_h^2,definition
+5,eq:Mstar_def,definition,by inspection,sigma_v^2(M*) = u^2,definition
+7,eq:kL_def,definition,by inspection,Delta^2(k_L*) = Delta_L^2(inf),definition
+10,eq:RL,definition,by inspection,Lagrangian radius,definition
+11,eq:astar,definition,by inspection,M* = m_h* <=> K* = k_h*,definition
+3,eq:kNL2,definition,by inspection: (k/k1)^2 = C k^(6/5) is the intersection of the k^2 asymptote (Delta^2 = 1 at k_NL1) and C k^(6/5),consistent with Eq. 2-2-2-5,definition
+8,eq:mh_star,definition,"M = (4pi/3) rho0 Delta_vir k^-3, inverse of Eq. rh_def at a = 1 (k = 1/r)",Delta_vir = 18 pi^2 = 177.65,definition
+9,eq:rh_def,definition,"r_h = (3m/(4 pi Delta rho(a)))^(1/3), rho(a) = rho0 a^-3 => r_h ~ m^(1/3) a","Illustris: r_h(1.2e13, a=1) = 754.8 kpc (Fig. 12: 755.0 kpc)",definition
+12,eq:pq,scaling,exponent algebra with exact fractions: sigma_v^2(m*) ~ a^th_h equals m*^(1/3) ~ a^((th_h+th_v)/2) only if th_h = th_v; rho* ~ a^-3th from sigma^2 ~ G m^2/3 rho^1/3,theta_h = theta_v; m* ~ a^3theta; rho* m* = const,pass
+13,eq:Mc,scaling,"exact fractions: <Kpv> ~ M*^(2/3) a^-theta ~ t and M* ~ a^(6/(n+3)), t ~ a^(3/2)","theta = 4/(n+3) - 3/2; theta = 1 (n=-7/5), 1/2 (n=-1); M* ~ a^(15/4) for theta = 1",pass
+14,eq:ratio,approximation,sigma_v^2(M*)/sigma_h^2(m*) = sigma_v^2(M*)/sigma_v^2(m*) = (M*/m*)^(2/3); data: Fig. 6,"algebra exact; data: <Kpv>/<Kph> = 1 at a = 0.48 (Illustris, a* = 0.50) and 0.97 (Virgo, a* = 0.79; ratio 0.89 at a*) -> E3",approximation
+15,eq:after,scaling,"exact fractions with theta = 1/2, t ~ a^(3/2)",m* ~ a^(3/2) ~ t; M* ~ a^3 ~ t^2,pass
+16,eq:2-2-2-5,definition,by inspection,three power-law ranges,definition
+17,eq:peebles-na,model (cited),stable-clustering index of Peebles (1980),n_a = -6/(5+n_i),cited
+18,eq:2-2-2-6,identity,"continuity at k_NL1 and k_NL2 solved with exact fractions for three (n_i, n_X) pairs","k_NL1 ~ a^(-2/(3+n_i)), b = 2(3+n_X)/(3+n_i), k1^(3+nX) k2^(na-nX) ~ a^na",pass
+19,eq:sigma_h_full,definition,by inspection,linear bulk-velocity variance with top-hat window (cited),definition
+20,eq:keq,approximation,"k_eq = a_eq H(a_eq)/c with a_eq = Orad/Om in matter+radiation; P(k_eq,0) ~ 2pi^2 A_s/(k^3 a_eq^2) (order of magnitude)",k_eq exact for H^2 = H0^2(Om a^-3 + Orad a^-4); P(k_eq) to O(1) factors,approximation
+21,eq:sigma_h0,identity,"Eq. sigma_h_full with int P dk = P(k_eq,0) k_eq a^2 and Eq. keq, evaluated at generic values",lhs/rhs = 1.0000000000; ~ a^4 H^2 ~ a in the matter era,pass
+22,eq:spectrum-relation,identity,ratio of Eq. sigma_h_full to sigma_delta^2 R^2 = (2pi^2)^-1 int k^2 P W^2 dk R^2: factor (1/6pi^2)/(1/2pi^2) = 1/3,exact,pass
+23,eq:betan-powerlaw,identity,quadrature of int x^n W^2 / int x^(n+2) W^2 for P ~ k^n,"n=-0.6: formula 1.0989, quadrature 1.0990; n=-0.2: formula 0.5245, quadrature 0.5249; n=0.3: formula 0.2696, quadrature 0.2734 (quadrature truncated at x = 400; slow convergence for n -> 1)",pass
+24,eq:universal-spectrum,model,"matching argument (heuristic, stated as such in the text); data: plateau of P(k)k in Fig. 1","flattest 1-dex window of P(k)k at k ~ 0.9-1.1 h/Mpc (slope < 0.03) for Virgo z=0, Illustris-1-Dark and TNG z=0",model
+25,ZEqnNum143209,definition,by inspection,"pair-conservation equation (Peebles 1980, cited)",definition
+26,eq:b3,model,limits of Eq. ZEqnNum143209: linear -2xibar/3; xi ~ r^-2 gives xibar = 3 xi (checked by quadrature); matching 2 xi = b with xi = 3/2,b = 3 follows from the stated heuristic matching,model
+27,eq:NL_spectrum,scaling,exact fractions: a^3 (k/a)^(3+n) = a^-n k^(3+n),pass,pass
+28,eq:spectrum_correlation,scaling,"xi ~ a^c r^-2 (comoving) = a^(c+2) r_phy^-2 for c = 2, 3, 1","exponents 4, 5, 3 consistent; data: Fig. 8 growth 2.0 (linear), up to 2.8 (universal, after a*), 2.2 (deep)",pass
+29,eq:2-2-2-7-44,identity,"Eq. 2-2-2-6 with n_X = -1, b = 3 and Eq. peebles-na","n_i = -5/3, n_a = -9/5",pass
+30,eq:2-2-2-7-45,identity,exact fractions from Eq. 2-2-2-6,"k_NL1 ~ a^-3/2, k_NL2 ~ a^-3/2, M ~ a^(9/2); data: k_NL1 ~ a^-1.49, k_NL2 ~ a^-0.89 (a >= 0.6)",pass
+31,eq:kL_scaling,scaling,a^2 = a^3 k^2 -> k ~ a^-1/2,data: k_L* ~ a^-0.41 (a >= 0.6),pass
+32,eq:rvir_univ,scaling,"exact fractions: Delta_h ~ a^3/2, rho ~ a^-3 => R_h ~ m^1/3 a^1/2; sigma_v^2 ~ m/R_h ~ m^2/3 a^-1/2; sigma_v^2(m*) with m* ~ a^3/2 ~ m*^(1/3)",pass,pass
+33,eq:mh_star_2,model,normalisation of the universal range at k_h* by the turnaround contrast (assumption); delta_ta = (3pi/4)^2 - 1,"(3pi/4)^2 - 1 = 4.5517; the text prints 5.55, which is (3pi/4)^2 = 5.5517 (the overdensity 1 + delta_ta) -> E7",fixed
+34,eq:crossover,identity,"both sides scale as m^(2/3) a^-1 with sigma_delta^2(m*) ~ a^2, sigma_delta^2(m) ~ m^-2/3 a^3 and Eq. rvir_univ; equal at m = m*",pass,pass
+35,eq:3-3,definition,by inspection,cumulative mass function and flux,definition
+36,eq:flux,identity,"finite differences on a test distribution (normalised f_M, growing M_h)",-0.23198820 vs -0.23198820,pass
+37,eq:3-4-5,identity,Eq. flux with d_t(M_h f_M) = 0 below m_h,data: plateau eps_m = 0.0223 Msun/s at z = 0-0.3; -dM_h/dt from Fig. 5 = 0.0196,pass
+38,eq:3-3-3,identity,d/dm of Eq. 3-3 with m_g = M_h f_M m_p: dPi/dm = d_t(M_h f_M) = (1/m_p) d_t m_g,pass (sign: d/dm of -d_t int_m^inf = +d_t M_h f_M),pass
+39,eq:3-25-2,identity,"sigma ~ m^(-(3+n)/6) => 1 + dln sigma/dln m = (3-n)/6; values for n = -9/5, -5/3, -1","lambda = 4/5, 7/9, 2/3",pass
+40,eq:3-25-222,definition,by inspection,PS barrier condition,definition
+41,eq:3-25-222-2,definition,by inspection,generalised barrier,definition
+42,eq:3-25-222-3,model,universal row: sigma^X ~ m^-1/3 D^3/2 => sigma^X/D ~ m^-1/3 D^1/2 (exact fractions),consistent with Eq. spectrum_correlation; barriers are assumptions,model
+43,eq:3-11,definition,by inspection,Wiener process in u,definition
+44,eq:3-10,identity,"u ~ m^(1-lambda)/(1-lambda): du = m^-lambda dm => dm = m^lambda sqrt(2 D_u) dW, D_p0 = D_u/(1-lambda)^2 with u = m^(1-lambda)",pass (the normalisation of u fixes D_p0 as printed),pass
+45,eq:3-12,identity,Stratonovich Fokker-Planck form of Eq. 3-10 (by inspection) and residual of Eq. 3-13 by finite differences,residual 1.4e-08,pass
+46,eq:3-13,identity,normalisation by quadrature and residual of Eq. 3-12 (lambda = 0.62),int f dm = 1.00000000,pass
+47,eq:3-14-14,identity,front from the second moment (Eq. 3-14): <m^2> ~ D_o^(1/(1-lambda)) => M* ~ D_o^(1/(2-2lambda)),pass,pass
+48,eq:3-15,identity,"Eq. 3-13 rewritten with 4(1-lambda)^2 D = 4 eta0 M*^(2-2lambda), evaluated at three masses",pass,pass
+49,eq:nu_dyn,model,nu ~ (D/sigma^X)^2 ~ m^(2/3) D^-1 = (m/m*)^(2/3) with m* ~ D^3/2 (exact fractions); last equality with Eq. rvir_univ,lambda_h = 2/3,model
+50,eq:clock_c,scaling,"m* ~ D_c^(1/(2-2*2/3)) = D_c^(3/2); D_c = a^2, a => a^3, a^3/2 = a^(3 theta)",pass,pass
+51,eq:clock_L,scaling,exact fractions: lambda_2 = (3-n)/6; M* ~ a^(2/(2-2lambda_2)),"a^(15/4) (n = -7/5), a^3 (n = -1)",pass
+52,eq:3-18-2,identity,"normalisation of the double-lambda form by quadrature (lambda1 = 0.81, lambda2 = 0.66, eta0 = 0.43)",int f dm = 1.00000000,pass
+53,eq:3-20-22,identity,"f_M dm = f_Dl(nu) dnu with nu = (m/M_PS)^(2-2lambda_i), eta0* = eta0 (M*/M_PS)^(2-2lambda2), at three masses",pass,pass
+E7,eq:3-20,identity,same as Eq. 3-20-22 (appendix copy),pass,pass
+E8,eq:3-20-2,definition,"p, q of Eq. 3-20; Fig. 11 values: lambda1 = 1 - q/3 = 0.878, lambda_i = 1 - (1/3)/p = 0.719",text values reproduced,definition
+54,eq:3-8-0,identity,small-m limit of M_h f_M (Eq. 3-18-2) at m = 1e-6 M*,pass,pass
+55,eq:3-8-1,identity,A_M constant at fixed exponents and eta0 <=> M_h M*^(lambda1-1) = const,pass,pass
+56,eq:3-8-2,identity,M_h ~ M*^(1-lambda) and M* ~ D_o^(1/(2-2lambda)) => M_h ~ D_o^(1/2) for any lambda (exact fractions),pass,pass
+57,eq:3-8,scaling,D_c = a: M_h ~ a^(1/2); eps_m = -dM_h/dt ~ a^(1/2) / t ~ a^(1/2 - 3/2) = a^-1,"data (Fig. 5, 9): M_h ~ a^0.41 after a*; eps_m ~ a^-1.08 between the last two intervals",pass
+58,eq:lambda1_clocks,identity,"M_h ~ a^(tau_c/2), M* ~ a^(tau_L/(2-2lambda2)) => dlnM_h/dlnM* = (1-lambda2) tau_c/tau_L (exact fractions)",lambda1 = 5/6,pass
+59,eq:3-4-2,identity,"int_m^inf f_M dm by quadrature vs Gamma(q/2,x)/Gamma(q/2)",pass,pass
+60,eq:3-4-3,identity,finite-difference time derivative of Eq. 3-4-2 with M_h = t^1/2 and M* = M_h^(1/(1-lambda1)),-0.35452153 vs -0.35452153,pass
+61,eq:flux_exact,identity,"same test; recursion Gamma(s+1,x) = s Gamma(s,x) + x^s e^-x","-0.35452153 vs -0.35452153; edges (lambda1 = 5/6, eta0 = 1/2): 10% at 0.235 M*, half at 2.57 M*",pass
+62,eq:3-8-3,scaling,"exact fractions with m* ~ a^3/2, lambda1 = 5/6","a^-5/4, a^-11/4",pass
+63,eq:tau_g,scaling,"dm/d(a^(tau/2)) ~ m^lambda, da^(tau/2)/dt ~ a^((tau-3)/2) in the matter era => tau_g ~ m^-lambda a^((3-tau)/2); tau = 1 gives a",pass (also the last column of Table 2),pass
+64,eq:tau_phi,scaling,R_h ~ m^1/3 at fixed time => R/(G m) ~ m^-2/3,pass,pass
+65,eq:3-9-2,scaling,m* ~ a^3/2: tau_g* ~ a^-1 a = a^0; r_h* ~ m*^(1/3) a ~ a^(3/2) ~ t,pass,pass
+66,eq:Rh_def,definition,by inspection,virial size with Delta_h = Delta_vir (a/a*)^(3/2) after a*,definition
+67,eq:density_laws,scaling,r_s ~ (m/eps^(2/3))^(3/5) with eps ~ m^(2/3) m*^(-2/3): exponents of m and m* (exact fractions),r_s ~ m^1/3 m*^4/15,pass
+68,eq:4-2-1,definition,by inspection,cumulative mass and virial energy outside r,definition
+69,eq:4-2-4,definition,by inspection,radial energy flux,definition
+70,eq:4-2-5,definition,by inspection,radial cascade rate,definition
+71,eq:4-2-6,data,Fig. 16: eps/nu at five nu; Fig. 15 plateaus,eps ~ nu^0.979; eps/nu = 1.96e-07-2.14e-07 (text -3e-7) -> E4,fixed
+72,eq:4-2-6-2,identity,<Kpv> = 3/2 sigma_v^2(M*) = |eps_u| t with sigma_v^2 = sigma*^2 (m/m*)^2/3 and Eq. ratio,pass,pass
+73,eq:mh_Mstar,scaling,"constant eps_u with sigma*^2 ~ m*^1/3: m*^(1/3) M*^(2/3) m*^(-2/3) / t = const => m* ~ M*^2/t^3; M* ~ t^5/2, t^2 => m* ~ t^2, t (exact fractions)","theta = 1, 1/2",pass
+74,eq:tc,identity,t_c = sigma*^2/|eps_u| = (2/3) t (m*/M*)^(2/3) from Eq. 4-2-6-2; = (2/3) t* (a/a*)^theta using M*/m* ~ a^(3 theta/2)... ,"first two forms exact; third: (2/3) t (m*/M*)^(2/3) = (2/3) t* (a/a*)^theta needs t (m*/M*)^(2/3) ~ a^theta: t ~ a^3/2, (m*/M*)^2/3 ~ a^-1 (theta = 1/2) or a^-1/2 (theta = 1) => a^1/2, a^1 = a^theta",pass
+75,eq:eps_nu,identity,eps = -sigma_v^2/t_c = eps_u sigma_v^2/sigma*^2 = eps_u nu with nu = (m/m*)^2/3,pass (assumption of a common clock stated in the text),pass
+76,eq:4-3-1,identity,v^2/(2t) = v^3/(3r) => t = 3r/(2v) and v^3 = 3 eps r,pass,pass
+77,eq:4-3-2,identity,"numerical: rho = (dm/dr)/(4 pi r^2), v^2 = gamma G m/r, v^2(m) form, mdot = 4 pi r^2 rho v",pass,pass
+78,eq:4-3-2-1,identity,beta_v = 1/3 from v^3 = 3 eps r; gamma_r alpha_r = beta_v^-2/3; beta_r = 5 alpha_r/(12 pi) from d m/dr,pass,pass
+79,eq:rin,identity,mean density m_r/(4/3 pi r^3) = (9/5) beta_r eps^2/3 G^-1 r^-4/3; at r_in it equals rho_f,example values: mean density of 1e9 Msun in 1 kpc = 1.62e-20 kg/m^3 (text 1.5e-20); c = 5 NFW at z = 10: 1.51e-20,pass
+80,eq:front_p,scaling,"chi = tau/(2-2lambda): 3 theta (m*), 15/4 and 3 (M*)",pass,pass
+81,eq:thetap,scaling,rho_s ~ m/r_s^3 ~ m*^-4/5 ~ a^(-12 theta/5) => theta' = 4 theta/5,pass,pass
+82,eq:betah,identity,r ~ m^1/3 a^theta' along m ~ a^chi => dlnr/dlnm = 1/3 + theta'/chi; chi = tau/(2-2lambda),pass; every entry of Table 3 recomputed (see below),pass
+83,eq:dr_mh,identity,"chain rule dr = (dr/dm) sqrt(2 D_p(m)) dW with r = A_r m^beta_h, evaluated at generic values",1.54499814 vs 1.54499814,pass
+84,eq:fr_from_fM,identity,f_r = f_M |dm/dr| at three radii,pass,pass
+85,eq:front_r,scaling,(D_r0 D_o)^(1/(2-2gamma)) with 2-2gamma = 2(1-lambda)/beta_h => D_o^(beta_h/(2-2lambda)) = a^(chi beta_h) = M_front^1/3 a^theta',pass,pass
+Table 3,tab:mappings,identity,"all 36 entries of Table 3 (beta_h, gamma, exponent of r) recomputed with exact fractions",12/12 rows equal,pass
+86,eq:sojourn_exact,definition,by inspection,residence-time weighted visitation measure (model assumption),definition
+87,eq:Pr,approximation,"long-time limit of Eq. sojourn_full (2 f_r), times tau_gr ~ r^-gamma",pass (limit checked under Eq. sojourn_full),approximation
+88,eq:4-4-4-2,identity,tau ~ r^(2gamma-2) = r^-gamma => gamma = 2/3,pass,pass
+89,(unlabelled double-gamma P_r),model,double-gamma generalisation (definition of the model),model,model
+90,eq:4-4-6,identity,logarithmic slope of the double-gamma P_r equals -2 at the stated r_s,slope at r_s = -2.0000000000,pass
+91,eq:4-4-9-2,definition,by inspection,"shape parameters alpha, beta",definition
+92,eq:4-4-8,identity,"normalisation 4 pi int P x^2 dx = 1 by quadrature for (alpha, beta) = (10/9, 5/3), (1, 3/2), (0.7, 0.9); Einasto for alpha = 2 beta",last: 1.00000000,pass
+93,eq:4-4-15,identity,"rho = rho_s at r = r_s; slope -2 at r_s for any (alpha, beta) (finite differences)",slope at r_s = -2.00000000,pass
+94,eq:4-4-16,identity,Eq. 4-4-15 with alpha/beta = 2/3 and rho_s fixed by the cascade law at r_s; rho_s scaling (exact fractions),rho_s ~ eps_u^(6/5) G^(-9/5) m*^(-4/5),pass
+95,eq:rs_norm,identity,int_0^inf x^(2/3) exp(-x^alpha/beta) dx * 4 pi vs 4 pi I(beta) (beta = 1.37),22.92814756 vs 22.92814756,pass
+96,eq:rs_scaling,identity,inverse of Eq. rs_norm; scaling as Eq. density_laws,pass,pass
+97,eq:r43,identity,"s = -4/3 - (2/3)(r/r_s)^alpha => |s+4/3| <= 0.1 for (r/r_s)^alpha <= 0.15; values 0.058, 0.15, 0.181 for beta = 1, 3/2, 5/3","text: 0.06, 0.15, 0.18",pass
+98,eq:c_scaling,scaling,R_h/r_s ~ a^theta m*^-4/15 ~ a^(theta - 12 theta/15) = a^(theta/5) (exact fractions),2^(1/10) = 1.072 (text 7%); Fig. 12: c* grows by 9% for 0.5 <= a <= 1,pass
+99,eq:mh_Rh,identity,"3 - 2gamma_eff = 1/beta_h: -2gamma_eff = -4/3 (r_s), -3/2 (R_h), -3/2 and -2 (r_h)",pass,pass
+100,eq:4-4-17,identity,eps^2/3 = |eps_u|^2/3 (m/m*)^4/9,pass,pass
+101,eq:4-4-18,identity,Eq. 4-4-17 at m = m*,pass; Fig. 17 legend: m*(z=0) = 1.2e13 Msun,pass
+B1,eq:2-2_1,definition,by inspection,comoving equation of motion (Peebles 1980),definition
+B2,eq:4,model (cited),Layzer-Irvine equation (cited),cited,cited
+B3,eq:4-1-s,identity,substitution into Eq. 4 with H = 2/(3t): dE/dt + H(2K+P) = 0,residual 0,pass
+B4,eq:5_ne,identity,2K/P = -2/(7/5),n_e = -10/7,pass
+B5,eq:5,data,eps_u = -(3/2) v0^2/t0 with the Virgo values,"v0 = 354.6 km/s, t0 = 13.04 Gyr: -4.584e-07; the printed v0 = 350 and t0 = 13.7 give -4.250e-07 -> E1",fixed
+B6,eq:3-2-s1,identity,E = KE + PE = (1 + n_e/2) PE with PE = -G M^2/r,pass,pass
+B7,eq:3-2-s3,identity,"Eq. 3-2-s1 with M/r^3 = const at generic M1, mu",-0.49423353 vs -0.49423353 (<0),pass
+B8,eq:3-2-s4,identity,mu -> 0 limit of Eq. 3-2-s3 at mu = 1e-6 (relative correction ~ mu^(2/3)); (5/3)(1 + n_e/2) = 10/21,pass,pass
+C1,eq:2-2-2-7-2,definition,by inspection,Hamilton et al. / Peacock & Dodds mapping (cited),definition
+C2,eq:2-2-2-7-4,identity,"Delta^2 ~ (a^2 k_L^(3+n))^alpha_H with k_L = k Delta^(-2/3), solved with exact fractions; alpha_H = 3/2 gives Peebles; CDM: alpha_H = 9/2, n_i = -5/3",pass,pass
+D1,eq:2-2-3-8,identity,"r_hc^3 = 2 G m*/(Delta H0^2); Delta^2 ~ delta^2 a^2 (k r)^c with delta = (3/10) Delta^(1/3) (= 1.6865, identical to 3(12pi)^(2/3)/20)",exponents of 2 and Delta: c/3 and (2-c)/3,pass
+D2,eq:2-2-3-9,identity,c = 2: a^2 (2Gm*/H0^2)^(2/3) = (2Gm*/(H0^2 a^-3))^(2/3); Delta_vir drops out,pass,pass
+E1,eq:3-14,identity,second moment of Eq. 3-13 by quadrature (lambda = 0.71),0.004723 vs 0.004723,pass
+E2,eq:3-16,identity,Eq. 3-14 with 4(1-lambda)^2 D = 4 eta0 M*^(2-2lambda) and <m^2> = gamma0 M*^2 solved for eta0 (round trip),pass,pass
+E3,eq:3-18-3,identity,"cumulative k-th moment by quadrature (k = 0.67, M* = 1)",0.37447909 vs 0.37447909,pass
+E4,eq:3-15-2-2,identity,nu = (delta_c/(sigma D))^2 with sigma ~ m^(lambda_i - 1): exponent 2 - 2 lambda_i; M_PS ~ D^(1/(1-lambda_i)) = D^(6/(3+n_i)),pass,pass
+E5,eq:3-17,identity,Eq. 3-15 in the variable nu = (m/M*)^(2-2lambda); eta0 = 1/2 gives PS (Eq. fPS),pass,pass
+E6,eq:3-15-22,identity,exponents with sigma^NL ~ m^(-(3+n_a)/6) D^(-n_a/2): (6 lambda_a - 3)/(2(1-lambda_a)) = -3 n_a/(3+n_a) (exact fractions),pass,pass
+E9,eq:3-20-2-2,identity,dnu/dm = 2 nu dln(sigma^-1)/dm,pass,pass
+E10,eq:fPS,model (cited),PS form; Fig. 11 curve against the equation,max |Delta ln f| = 0.046 (plotted curve not exactly the printed form),cited
+E11,eq:fST,model (cited),normalisation constant A = 1/(1 + 2^-p Gamma(1/2-p)/sqrt(pi)) reproduced; Fig. 11 curve against the equation,max |Delta ln f| = 0.034,cited
+E12,eq:fJK,model (cited),f(sigma) dln sigma^-1 = f(nu) dnu with ln sigma^-1 = ln(sqrt(nu)/delta_c); Fig. 11 curve against the equation,max |Delta ln f| = 9.9e-14,cited
+F1,eq:3-21,definition,by inspection,velocity decomposition,definition
+F2,eq:3-23,definition,by inspection,mean specific virial energy above m_h,definition
+F3,eq:3-24,definition,by inspection,virial energy flux,definition
+F4,eq:3-24-2,identity,ratio of Eq. 3-18-3 with k = 2/3 and k = 0 (quadrature check of Eq. 3-18-3 above),pass,pass
+F5,eq:3-25,identity,m -> 0 limit of Eq. 3-24-2,pass,pass
+F6,eq:3-25-2-3,scaling,"M* ~ a^3, theta = 1/2: a^2 a^-1/2 = a^3/2 ~ t",data: mass-space plateau (Fig. F1) 2.21e-07-3.42e-07 m^2/s^3,pass
+F7,ZEqnNum418270,definition,"mass conservation of D_FM, D_BM",definition,definition
+F8,ZEqnNum701103,definition,by inspection,net redistribution function,definition
+F9,ZEqnNum342616,identity,geometric series by direct summation (n_h = 7.3),7.300000,pass
+F10,eq:3-2,identity,Pi = -m/tau_h = -n m/(n tau_h) = -m_g/tau_g,pass,pass
+F11,eq:3-2-2,model,local energy flux (definition under locality),model,model
+G1,eq:sojourn_full,identity,time average of Eq. fr_from_fM by quadrature (gamma = 0.43),0.08652047 vs 0.08652047; ratio to f_r at D_o = 1e6: 1.9953 (-> 2),pass
+G2,eq:4-4-4,identity,normalisation over volume by quadrature,1.00000000,pass
+G3,eq:4-4-5,identity,"normalisation over volume by quadrature (gamma1 = 2/3, gamma2 = 0.41)",1.00000000,pass
+G4,eq:4-4-7,identity,"equals Eq. 4-4-8 with alpha = 2-2gamma2, beta = (1-gamma2)/(1-gamma1) at three x",pass,pass
+G5,eq:4-4-10,identity,cumulative mass by quadrature at x = 1.3,0.35930138,pass
+G6,eq:4-4-1,definition,Ito tracer walk,definition,definition
+G7,eq:4-4-3,identity,"Eq. 4-4-4 inserted into the Ito Fokker-Planck equation (finite differences, gamma = 0.55)",-1.472526e-02 vs -1.472525e-02,pass
+G8,eq:4-1,definition,"mean potential, granular fluctuation, spacing",definition,definition
+G9,eq:4-3,identity,"(1 - P)/Gamma with P = 1 - m_p E/kT, kT = m_p gamma G m/r => m_p r/(gamma Gamma d m_r)",pass,pass
+G10,eq:4-5,data,u_h* = r_h*/t with m_h*(z=0) and t0 of Illustris-1-Dark,"with m_h* = 1.2e13 Msun (Fig. 5): r_h* = 0.755 Mpc, u_h* = 53.7 km/s; the printed 3.2e13, 1.05 Mpc, 75 km/s -> E2",fixed
+G11,eq:2-2-8,identity,E = (1 + 2/n_e) KE; n_e = -10/7 => 1 + 2/n_e = -2/5 < 0,pass,pass
+G12,eq:4-8-2,identity,dv^2 = (2/5) m_p v^2/m_r from v^2 ~ m^(2/5); with v^2 = gamma G m/r,pass,pass
+G13,eq:4-10,identity,kinematic tau_hr = m_p/(4 pi r^2 rho v) vs energetic Eq. 4-8-2: ratio |1 + 2/n_e| = 2/5,ratio = 0.400000,pass
+G14,eq:4-3-3,identity,all five relations evaluated from the cascade laws at generic values; the scalings at r_s* ~ a^(9/10) (exact fractions),pass,pass
+H1,eq:5-9-1,definition,step per accreted particle and waiting time,definition,definition
+H2,eq:5-9-2,identity,s_h = (1/3) Omega Delta alpha_c u tau_g and u^2 = (2 alpha_c/(3 H^2 t^2)) G m_p/s_h with rho_b = rho_crit/alpha_c,pass (identity; m_p cancels),pass
+H3,eq:rp,identity,m_r(r_p) = m_p in Eq. 4-3-2,pass,pass
+H4,eq:mX,identity,"m_p v(r_p) r_p = hbar/2 at m_p = m_X (round trip); M_Pl (eps t_p/c^2)^(1/9) agrees in powers of hbar, G, eps","m_X = 4.60e+11-8.97e+11 GeV for eps = 2-5e-7, alpha_r = 4-6, threshold hbar/2-hbar (text (5-9)e11); r_p = 9.3e-14-1.8e-13 m (text 2e-13)",pass
+H5,eq:5-aG,identity,m_p v r = hbar with v^2 = gamma G m_p/r => r = a_G/gamma; v_G = c (m_p/M_Pl)^2,pass,pass
+H6,eq:5-9-3,identity,4 pi r^2 rho_b l_p = (3 (Ht)^2/(2 alpha_c)) M_Pl (u/c)^2 with u = r/t and rho_b = 3H^2/(8 pi G alpha_c),with r_h* = 0.755 Mpc: m_p >= 2.88e+11-5.75e+11 GeV (printed (0.6-1.1)e12 with 1.05 Mpc) -> E2,pass
+H7,eq:5-u-pred,identity,"equating Eqs mX and 5-9-3 (powers of hbar, G, c cancel as stated)","u = 47-70 km/s (H0 t0 = 0.99), 70-105 km/s (Ht = 2/3); measured u_h* = 54 km/s",pass

@@ -1,0 +1,23 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,,,
+# Updated,11/2026,,,,,,,,
+#Name,Fig. B1: plotted data of the author file KE_PE_EY_vs_t_2.fig,,,,,,,,
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles",,,,,,,
+#Ref. [2] Virgo SCDM simulation,https://wwwmpa.mpa-garching.mpg.de/Virgo/,"Jenkins et al. 1998, ApJ 499, 20",,,,,,,
+#Ref. [3] Illustris-1-Dark,https://www.illustris-project.org/data/,"Vogelsberger et al. 2014, MNRAS 444, 1518",,,,,,,
+#Ref. [4] Dark matter flow dataset,https://doi.org/10.5281/zenodo.6586213,"Xu 2022, all files",,,,,,,
+#Note,"axes labels: [['Specific Energy (km^2/s^2)'], ['Time t/t_0', 'Ratio']]",,,,,,,,
+#Note,"x[i], y[i]: series i of the .fig in plotting order; series names as in the .fig",,,,,,,,
+#Note,series with >20000 points thinned to ~5000 points uniform in log x (values unaltered),,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+x[0] K_p,y[0] K_p,x[1] P_y,y[1] P_y,x[2] E_y=K_p+P_y,y[2] E_y=K_p+P_y,x[3] K_p= 4.6\times10^{-7}m^2/s^3 t,y[3] K_p= 4.6\times10^{-7}m^2/s^3 t,x[4] -P_y/K_p,y[4] -P_y/K_p
+0.0274060108,11216,0.0274060108,0,0.0274060108,11216,0.0274060108,5187.26356,0.0274101222,-0
+0.0680617952,21063,0.0680617952,-22760.9191,0.0680617952,-1697.91905,0.0680617952,12882.3736,0.0680413817,1.08082758
+0.125,33127,0.125,-43935.4007,0.125,-10808.4007,0.125,23659.3333,0.125,1.32627164
+0.192421223,47073,0.192421223,-65855.4929,0.192421223,-18782.4929,0.192421223,36420.4628,0.19245009,1.39886787
+0.252982213,59856,0.252982213,-85199.8801,0.252982213,-25343.8801,0.252982213,47883.124,0.252982213,1.4234142
+0.353553391,80243,0.353553391,-115670.139,0.353553391,-35427.1386,0.353553391,66918.7002,0.353553391,1.44149818
+0.544371879,115650,0.544371879,-168107.601,0.544371879,-52457.6014,0.544371879,103035.806,0.544331054,1.45366197
+0.674619536,138050,0.674619536,-201153.818,0.674619536,-63103.8182,0.674619536,127688.388,0.674660015,1.45705014
+0.866797174,168760,0.866797174,-246622.886,0.866797174,-77862.8863,0.866797174,164062.746,0.866784172,1.46139697
+1,188610,1,-276348.519,1,-87738.5185,1,189274.667,1,1.46518487

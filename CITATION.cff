@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this manuscript or its data, please cite the paper."
+title: "Universal spectrum and scaling laws for dark matter halo mass functions and density profiles"
+authors:
+  - family-names: Xu
+    given-names: Zhijie (Jay)
+    affiliation: Pacific Northwest National Laboratory
+    orcid: "https://orcid.org/0000-0003-0459-4531"
+license: CC-BY-4.0
+date-released: 2026-11-05
+version: "2"
+preferred-citation:
+  type: article
+  title: "Universal spectrum and scaling laws for dark matter halo mass functions and density profiles"
+  authors:
+    - family-names: Xu
+      given-names: Zhijie (Jay)
+  journal: "Research Square (preprint)"
+  doi: "10.21203/rs.3.rs-8012958/v3"
+  url: "https://doi.org/10.21203/rs.3.rs-8012958/v3"
+  year: 2026
+references:
+  - type: article
+    title: "Universal spectrum and scaling laws for dark matter halo mass functions and density profiles (arXiv preprint)"
+    authors: [{family-names: Xu, given-names: Zhijie (Jay)}]
+    year: 2021
+    identifiers:
+      - type: other
+        value: "arXiv:2109.09985"

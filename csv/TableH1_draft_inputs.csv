@@ -1,0 +1,18 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com
+# Updated,11/2026,
+#Name,Table H1 values (draft inputs: m_h* = 3.2e13 Msun),
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles"
+#Note,SI units,
+,,
+,,
+quantity,centre r_p,boundary r_h*
+r,1.71812328e-13,3.2298556e+22
+m,1.78266192e-15,6.363104e+43
+rho,4.66170628e+22,9.30936159e-27
+t,4.80153358e-07,4.33954808e+17
+v,5.36742038e-07,233884.389
+mdot,9.28173202e-09,1.46630568e+26
+d,3.36905443e-13,5763.89901
+freq,2.20917732e+17,12.912854
+tau_g,2.30842474e-18,1.21575054e-41
+tau_h,1.92061343e-07,1.21575054e-41

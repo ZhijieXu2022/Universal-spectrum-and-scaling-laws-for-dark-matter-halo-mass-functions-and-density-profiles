@@ -1,0 +1,58 @@
+# Publisher,Zhijie Xu,zhijie.xu@pnnl.gov,zhijiexu@hotmail.com,,,,
+# Updated,11/2026,,,,,,
+#Name,Fig. 16: plotted data of the author file Illustris_radial_cascadeepsilon_nu.fig,,,,,,
+#Ref. [1] This paper,reproducibility package,"Z. Xu, Universal spectrum and scaling laws for dark matter halo mass functions and density profiles",,,,,
+#Ref. [2] Virgo SCDM simulation,https://wwwmpa.mpa-garching.mpg.de/Virgo/,"Jenkins et al. 1998, ApJ 499, 20",,,,,
+#Ref. [3] Illustris-1-Dark,https://www.illustris-project.org/data/,"Vogelsberger et al. 2014, MNRAS 444, 1518",,,,,
+#Ref. [4] Dark matter flow dataset,https://doi.org/10.5281/zenodo.6586213,"Xu 2022, all files",,,,,
+#Note,"axes labels: [['\\nu=(m_h/m_h^*)^{2/3}', '$\\varepsilon(m_h, z)  (m^2/s^3)$']]",,,,,,
+#Note,"x[i], y[i]: series i of the .fig in plotting order; series names as in the .fig",,,,,,
+#Note,series with >20000 points thinned to ~5000 points uniform in log x (values unaltered),,,,,,
+,,,,,,,
+,,,,,,,
+"x[0] $\varepsilon  (m_h, a)$","y[0] $\varepsilon  (m_h, a)$",x[1] $\Delta \varepsilon$,y[1] $\Delta \varepsilon$,x[2] series02,y[2] series02,x[3] series03,y[3] series03
+0.125,2.676e-08,0.125,2.676e-08,0.125,3.271e-08,0.125,2.676e-08
+0.25,4.9667e-08,0.25,4.9667e-08,0.125,2.081e-08,0.25,4.9667e-08
+0.5,9.8833e-08,0.5,9.8833e-08,NaN,NaN,0.5,9.8833e-08
+1,2.0375e-07,1,2.0375e-07,0.124216704,3.271e-08,1,2.0375e-07
+2,3.93e-07,2,3.93e-07,0.125788236,3.271e-08,2,3.93e-07
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.124216704,2.081e-08,NaN,NaN
+NaN,NaN,NaN,NaN,0.125788236,2.081e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.25,6.5517e-08,NaN,NaN
+NaN,NaN,NaN,NaN,0.25,3.3817e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.248433407,6.5517e-08,NaN,NaN
+NaN,NaN,NaN,NaN,0.251576471,6.5517e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.248433407,3.3817e-08,NaN,NaN
+NaN,NaN,NaN,NaN,0.251576471,3.3817e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.5,1.17483e-07,NaN,NaN
+NaN,NaN,NaN,NaN,0.5,8.0183e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.496866815,1.17483e-07,NaN,NaN
+NaN,NaN,NaN,NaN,0.503152943,1.17483e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.496866815,8.0183e-08,NaN,NaN
+NaN,NaN,NaN,NaN,0.503152943,8.0183e-08,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,1,2.72e-07,NaN,NaN
+NaN,NaN,NaN,NaN,1,1.355e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.99373363,2.72e-07,NaN,NaN
+NaN,NaN,NaN,NaN,1.00630589,2.72e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,0.99373363,1.355e-07,NaN,NaN
+NaN,NaN,NaN,NaN,1.00630589,1.355e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,2,5.4e-07,NaN,NaN
+NaN,NaN,NaN,NaN,2,2.46e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,1.98746726,5.4e-07,NaN,NaN
+NaN,NaN,NaN,NaN,2.01261177,5.4e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+NaN,NaN,NaN,NaN,1.98746726,2.46e-07,NaN,NaN
+NaN,NaN,NaN,NaN,2.01261177,2.46e-07,NaN,NaN
+NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN
